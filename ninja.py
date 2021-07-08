@@ -14,12 +14,11 @@ class Ninja:
         #code here
         if pirate.health <= 0:
             # modify to show the pirate's health 
-            self.die()
+            pirate.die()
         return self
     # die method to track health being depleted
     def die(self):
         # die when health == 0 
-        print("Pirate is dead!")
-
+        print("Ninja is dead!")
 
         
