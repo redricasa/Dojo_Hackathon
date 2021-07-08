@@ -14,11 +14,11 @@ class Pirate:
         #code here
         if ninja.health <= 0:
             # include a super here?
-            self.die()
+            ninja.die()
         return self
 
     def die(self):
         # die when health == 0 
-        print("Ninja is dead!")
+        print("Pirate is dead!")
     
         # exit the game when pirate dies
